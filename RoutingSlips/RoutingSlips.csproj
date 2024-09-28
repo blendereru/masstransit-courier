@@ -14,7 +14,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Models\" />
+      <PackageReference Include="MassTransit" Version="8.2.6-develop.2004" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.6-develop.2004" />
     </ItemGroup>
 
 </Project>
